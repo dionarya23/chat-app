@@ -31,7 +31,7 @@ Follow the instructions below to set up and run the project locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/dionarya23/chat-app-fe.git
 cd your-repo
 ```
 
