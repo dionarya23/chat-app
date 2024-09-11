@@ -32,7 +32,7 @@ Follow the instructions below to set up and run the project locally.
 
 ```bash
 git clone https://github.com/dionarya23/chat-app-fe.git
-cd your-repo
+cd chat-app-fe
 ```
 
 ### 2. Install Dependencies
