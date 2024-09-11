@@ -53,7 +53,9 @@ const ChatApp = () => {
 
       const channel = pusher.subscribe(`chat_room_${room.id}`);
       channel.bind('new_message', (data) => {
+        console.log("luar", data)
         if (localStorage.getItem('username') !== data.user) {
+          console.log("dalam", data)
           setMessages((prevMessages) => [...prevMessages, data]);
         }
       });
